@@ -5,11 +5,12 @@ body {
 header {
     text-align: center;
     padding: 50px 20px;
-    background-image: url('Black Minimal Motivation Quote LinkedIn Banner (1).png'); /* Replace with the actual path to your background image */
+    background-image: url('images/Black Minimal Motivation Quote LinkedIn Banner (1).png');
     background-size: cover;
     background-position: center;
     color: #ffffff;
 }
+
 
 header img {
     width: 150px;
