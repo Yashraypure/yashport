@@ -1,0 +1,101 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('C:/Users/ASUS/OneDrive/Desktop/TRASSHH/portfolio/img/Black Minimal Motivation Quote LinkedIn Banner (1).png'); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+header img {
+    width: 150px;
+}
+
+h1, .lead {
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add the following styles at the end of the file */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+}
+
+.header-contact img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.header-contact a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header-info h1, .header-info p {
+    margin: 0;
+}
+
+.header-info p.lead {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 20px;
+    margin-right: 5px;
+}
