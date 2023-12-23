@@ -1,29 +1,31 @@
-
-
 body {
     background-color: #f8f9fa;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 header {
     text-align: center;
-    padding: 50px 20px;
+    padding: 5% 2%;
     background-image: url('img/Banner (1).png');
     background-size: cover;
     background-position: center;
     color: #ffffff;
 }
 
-
 header img {
-    width: 150px;
+    width: 20%; /* Adjust the width as needed */
 }
 
 h1, .lead {
     color: #ffffff;
+    margin: 0;
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 5%;
+    padding: 0 2%;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -40,9 +42,8 @@ h2 {
 .card {
     background-color: #ffffff;
     border-radius: 8px;
-    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
 }
 
 .card-title {
@@ -50,41 +51,29 @@ h2 {
 }
 
 .card:hover {
-    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
     background-color: #343a40;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 2%;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-/* Add the following styles at the end of the file */
-
 .header-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line on smaller screens */
 }
 
 .header-contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .header-contact img {
@@ -113,4 +102,22 @@ h2 {
 .logo {
     width: 20px;
     margin-right: 5px;
+}
+
+/* Media Query for screens smaller than 768px (typical smartphones) */
+@media screen and (max-width: 768px) {
+    header img {
+        width: 50%; /* Adjust the width for smaller screens */
+    }
+
+    .container {
+        margin-top: 10%;
+    }
+}
+
+/* Media Query for screens smaller than 480px (smaller smartphones) */
+@media screen and (max-width: 480px) {
+    header img {
+        width: 70%; /* Further adjust the width for even smaller screens */
+    }
 }
