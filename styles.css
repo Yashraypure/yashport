@@ -120,4 +120,16 @@ h2 {
     header img {
         width: 70%; /* Further adjust the width for even smaller screens */
     }
+
+    header {
+        padding: 10% 2%; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        margin-top: 15%; /* Further adjust margin for smaller screens */
+    }
 }
