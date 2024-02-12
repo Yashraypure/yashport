@@ -25,14 +25,9 @@ h1, .lead {
 .container {
     margin-top: 5%;
     padding: 0 2%;
-    height: 15px;
     box-sizing: border-box;
-    transition:all ease 0.5s;
     
-}
-.list-group > list-group-item:{
-    height:40px;
-
+    
 }
 
 h2 {
