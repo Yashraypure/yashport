@@ -110,6 +110,8 @@ h2 {
 @media screen and (max-width: 768px) {
     header img {
         width: 50%; /* Adjust the width for smaller screens */
+         background-image: url('');
+    }
     }
 
     .container {
