@@ -107,12 +107,11 @@ h2 {
 }
 
 /* Media Query for screens smaller than 768px (typical smartphones) */
-@media screen and (max-width: 768px) {
-    header img {
-       /* Adjust the width for smaller screens */
-         background-image: url('img/mobile.jpg');
+@media (max-width: 767px) {
+    header {
+        background-image: url('img/mobile-bg.jpg');
     }
-    }
+}
 
     .container {
         margin-top: 10%;
